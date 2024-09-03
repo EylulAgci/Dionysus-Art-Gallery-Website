@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'elmond';
+    src: url('font/Elmond.ttf') format('ttf'),
+       
+}
+
+@font-face{
+    font-family: 'magison';
+    src:url('font/Magison-3zdLz.ttf')format('ttf'),
+}
+
+@font-face{
+    font-family: 'ncl';
+    src:url('font/nclgastrub-demo-bf6530aa83804be.ttf')format('ttf'),
+}
+
+@font-face{
+   font-family: 'kenoky';
+   src: url('font/KenokyLight-3zezL.ttf');
+}
+
+body{
+    background-image: url(Frame\ 2.png);
+    background-size: 1879px 950px;
+    user-select: none; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.line{
+    background-color: #FFF3D2;
+    width: 1800px;
+    height: 1px;
+    margin-top:79px;
+    margin-left: 48px;
+}
+
+.menu{
+    display: flex;
+    height: 25px;
+    width: 1317px;
+    margin-top:5px ;
+    margin-left: auto;
+    margin-right: auto;
+    gap:201px;  
+
+}
+
+.menu a{
+    text-decoration: none;
+    color:#FFF3D2;
+    font-family: 'kenoky';
+    font-size: 25px;    
+    margin-top: 42px;
+}
+
+.baslik{
+    font-family:'magison' ;
+    font-size: 48px;
+    margin-top: 21px;
+    color:#FFF3D2;
+}
+.solresim{
+    display: grid;
+    gap: 24px;
+    margin-left: 50px;
+    margin-top:110px
+    
+}
+.solresim div{
+    display: flex;
+    
+}
+.solresim img{
+
+    border-radius: 20px;
+    width: 85px;
+    height: 85px;
+}
+
+.shadow div{
+    background-color: rgb(0, 0, 0, 0.5) ;
+    border-radius: 20px;
+    width: 85px;
+    height: 85px;
+}
+
+.solresim p{
+    font-family: 'kenoky';
+    color: #FFF3D2;
+    margin-left:20px;
+    margin-top: 25px;
+    font-size:25px   
+}
+
+.shadow{
+    display: grid;
+    gap: 24px;
+}
+
+.info h1{
+    font-size: 120px;
+    font-family: 'kenoky';
+    color: #ffedbc;
+    width: 100px;
+    margin-top: -390px;
+    margin-left: 410px;
+}
+
+.born p{
+    font-family: 'magison';
+    color: #FFF3D2;
+    margin-top: 25px;
+    line-height: 5px;
+    font-size:20px   
+    
+}
+
+.line2{
+    background-color: #FFF3D2;
+    width: 50px;
+    height: 1px;
+    margin-top:40px;
+}
+
+.dead p{
+    font-family: 'magison';
+    color: #FFF3D2;
+    margin-top: 25px;
+    line-height: 5px;
+    font-size:20px   
+}
+
+.text{
+    font-family: 'magison';
+    color: #FFF3D2;
+    margin-top: -288px;
+    margin-left: 1361px;
+    line-height: 5px;
+    font-size:20px   
+}
+
+.flex{
+    display: flex;
+    margin-left: 410px;
+    gap: 30px;
+}
+.eserler {
+    margin-left: 1352px;
+    margin-top:-150px;
+   display: grid;
+}
+.eserler img{
+    width:159px ;
+    height: 175px;
+    border-radius: 50px;
+
+}
+.eserimg{
+    display: flex;
+    gap: 20px;
+}
+
+.line3{
+    background-color: #FFF3D2;
+    width: 542px;
+    height: 1px;
+    margin-top:25px;
+    margin-left: 1361px;
+}
+.eserad{
+    display: flex;
+    gap: 60px;
+
+}
+
+.eserad p{
+    width: 100px;
+    font-family: 'kenoky';
+    color: #FFF3D2;
+    margin-top: 25px;
+    line-height: 20px;
+    font-size:15px   
+}
+.venus{
+    margin-left: 12px;
+}
+
+.magi{
+    margin-left: 23px;
+}
+
+.pallas{
+    margin-left: 23px;
+}
+
+.hakkında{
+    width: 400px;
+    height: 300px;
+    margin-left: 1471px;
+    margin-top: -412px;
+}
+
+.hakkında p{
+    font-family: 'kenoky';
+    font-size: 25px;
+    color: #FFF3D2;
+    text-align: right;
+   
+}
+
+.bilgi p{
+    position: absolute;
+    font-family: 'magison';
+    color: #FFF3D2;
+    margin-left:1362px;
+    margin-top: 150px;
+    top: 0;
+    left: 0;
+    font-size:20px ;
+}
+
+.line4{
+    position: absolute;
+    background-color: #FFF3D2;
+    width: 542px;
+    height: 1px;
+    margin-left:1362px;
+    margin-top: 190px;
+    top: 0;
+    left: 0;
+    font-size:20px ;
+}
+
+.shadow div:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s;
+    width: 300px;
+
+}
+
+.vis{
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    margin-left: 50px;
+    margin-top: 329px;
+}
+.vis p{
+    font-family: 'kenoky';
+    color: hsla(44, 100%, 91%, 0);
+    margin-left:1px;
+    margin-top: 24px;
+    text-align: right;
+    margin-right: 50px;
+    font-size:25px;
+  
+}
+
+.vis p:hover{
+    color: #FFF3D2;
+}
+
+.txt1{
+
+    width: 300px;
+    height: 70px;
+}
+.txt1:hover{
+    transition: opacity ,1.5s ;
+    opacity: 1;
+}
+
+
+
+
+
